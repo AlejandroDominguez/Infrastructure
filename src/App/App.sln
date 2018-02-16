@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting.Core.UnitTest"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting.Core", "CrossCutting.Core\CrossCutting.Core.csproj", "{F92C8615-D08A-4110-8277-0E2CA341DE21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting.AutoMapper", "CrossCutting.AutoMapper\CrossCutting.AutoMapper.csproj", "{5D754336-1011-4C41-A95B-A74E396B036F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting.AutoMapper.Test", "CrossCutting.AutoMapper.Test\CrossCutting.AutoMapper.Test.csproj", "{637DC014-C21D-4B1C-B563-CD1134D02695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{F92C8615-D08A-4110-8277-0E2CA341DE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92C8615-D08A-4110-8277-0E2CA341DE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92C8615-D08A-4110-8277-0E2CA341DE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D754336-1011-4C41-A95B-A74E396B036F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D754336-1011-4C41-A95B-A74E396B036F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D754336-1011-4C41-A95B-A74E396B036F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D754336-1011-4C41-A95B-A74E396B036F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637DC014-C21D-4B1C-B563-CD1134D02695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637DC014-C21D-4B1C-B563-CD1134D02695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637DC014-C21D-4B1C-B563-CD1134D02695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637DC014-C21D-4B1C-B563-CD1134D02695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CEC37187-483B-45A1-B3B3-862EC49E2ABE} = {818054B6-029D-415B-8931-A6F83E20562D}
 		{F92C8615-D08A-4110-8277-0E2CA341DE21} = {818054B6-029D-415B-8931-A6F83E20562D}
+		{5D754336-1011-4C41-A95B-A74E396B036F} = {818054B6-029D-415B-8931-A6F83E20562D}
+		{637DC014-C21D-4B1C-B563-CD1134D02695} = {818054B6-029D-415B-8931-A6F83E20562D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5A950D1-0FB7-4B88-A97A-7AB707D5EF36}
